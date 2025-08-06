@@ -106,7 +106,7 @@ void Triangle_Numbers(int n)
     cout << endl;
 }
 
-// Inverted Triangle Pattern
+// 6 - Inverted Triangle Pattern
 void inverted_triangle(int n)
 {
     for (int i = 0; i < n; i++)
@@ -121,8 +121,73 @@ void inverted_triangle(int n)
         }
         cout << endl;
     }
-
     cout << endl;
+}
+
+// 7 - Pyramid Patterns
+void pyramid_pattern(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < (n - i - 1); j++)
+        {
+            cout << "  ";
+        }
+        for (int j = 1; j < (i + 1); j++)
+        {
+            cout << j << " ";
+        }
+        for (int j = i - 1; j > 0; j--)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
+}
+
+// 8 - Hollow Diamond Pattern
+void hollow_diamond_patter(int n)
+{
+    // top part
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << "  ";
+        }
+        cout << "* ";
+
+        if (i != 0)
+        {
+            for (int j = 0; j < 2 * i - 1; j++)
+            {
+                cout << "  ";
+            }
+            cout << "* ";
+        }
+        cout << endl;
+    }
+    // bottom part
+    for (int i = 0; i < n - 1; i++)
+    {
+        // spaces
+        for (int j = 0; j < i+1; j++)
+        {
+            cout << "  ";
+        }
+        cout << "* ";
+        if (i != n - 2)
+        {
+            for (int j = 1; j < 2 * (n - 2 - i); j++)
+            {
+                cout << "  ";
+            }
+            cout << "* ";
+        }
+
+        cout << endl;
+    }
 }
 int main()
 {
@@ -132,5 +197,7 @@ int main()
     triangle_pattern(5);
     Triangle_Numbers(5);
     inverted_triangle(5);
+    pyramid_pattern(5);
+    hollow_diamond_patter(6);
     return 0;
 }
