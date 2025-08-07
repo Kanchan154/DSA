@@ -194,10 +194,11 @@ int main()
     basic_number_pattern(5);
     print_basic_alphabet(4);
     basic_number_series(5);
-    triangle_pattern(5);
-    Triangle_Numbers(5);
+    triangle_pattern(6);
+    Triangle_Numbers(4);
     inverted_triangle(5);
     pyramid_pattern(5);
     hollow_diamond_patter(6);
     return 0;
 }
+
