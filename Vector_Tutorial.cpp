@@ -21,7 +21,7 @@ void vector_functions(vector<int> vec)
          << "Size of the vector : " << vec.size() << endl;
 
     // pushing the element in the vector
-    vec.push_back(45);
+    vec.push_back(75);
 
     // print size after push back
     cout << endl
@@ -73,4 +73,5 @@ int main()
     vector_functions(vec);
 
     return 0;
+
 }
