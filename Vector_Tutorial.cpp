@@ -19,13 +19,19 @@ void vector_functions(vector<int> vec)
     // size of the vector
     cout << endl
          << "Size of the vector : " << vec.size() << endl;
+    // capacity of the vector
+    cout << endl
+         << "Capacity of the vector : " << vec.capacity() << endl;
 
     // pushing the element in the vector
-    vec.push_back(75);
+    vec.push_back(45);
 
     // print size after push back
     cout << endl
          << "Size of the vector after push-back : " << vec.size() << endl;
+    // printing the capacity of the vector after the push-back function
+    cout << endl
+         << "Capacity of the vector after push back : " << vec.capacity() << endl;
     // print elements of the vector using for-each loop
     for (int val : vec)
     {
@@ -65,13 +71,21 @@ void vector_functions(vector<int> vec)
     cout << "Element at index " << index << " is : " << vec.at(index) << endl;
 }
 
+int getSingleNumberValue(vector<int>& vec){
+    int num = 0;
+    for(int val: vec){
+        num = num ^ val;
+    }
+    return num;
+}
 int main()
 {
     setVector();
 
-    vector<int> vec = {1, 45, 47, 85, 65, 98};
+    vector<int> vec = {1, 47, 47, 85, 85};
     vector_functions(vec);
+    int num = getSingleNumberValue(vec);
+    cout << endl << "The Signle Values number is : " << num << endl;
 
     return 0;
-
-}
+} 
