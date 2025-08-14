@@ -82,10 +82,11 @@ int main()
 {
     setVector();
 
-    vector<int> vec = {1, 47, 47, 85, 85};
+    vector<int> vec = {1, 47, 47, 85, 78, 47, 78, 85};
     vector_functions(vec);
     int num = getSingleNumberValue(vec);
     cout << endl << "The Signle Values number is : " << num << endl;
 
     return 0;
 } 
+
