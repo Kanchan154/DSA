@@ -46,7 +46,7 @@ void pairSumWithOptimization(vector<int> num, int target)
             break;
         }
     }
-    cout << endl << " --------------------- Pair sum using optimized technique --------------" << endl ;
+    cout << endl << " -------------------- Pair sum using optimized technique -------------" << endl ;
     if (ans.size() == 0)
     {
         cout << "No subarray found...";
@@ -62,3 +62,4 @@ int main()
 
     pairSumWithOptimization(nums, 22);
 }
+
