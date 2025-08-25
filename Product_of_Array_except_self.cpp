@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// using brute force approach
+// using brute force approach to resolve the result
 void product_of_array(vector<int> array)
 {
     vector<int> productArray(array.size(), 1);
@@ -83,4 +83,5 @@ int main()
     product_of_array_using_Optimizaation(array);
     product_of_array_using_space_and_time_Optimizaation(array);
     return 0;
+
 }
