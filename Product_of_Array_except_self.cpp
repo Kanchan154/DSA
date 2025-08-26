@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 #include <vector>
 using namespace std;
 
@@ -23,7 +23,7 @@ void product_of_array(vector<int> array)
     }
 }
 
-// using optimized solution
+// using optimized solution to find the solution
 void product_of_array_using_Optimizaation(vector<int> array)
 {
     vector<int> prefix(array.size(), 1);
@@ -85,3 +85,4 @@ int main()
     return 0;
 
 }
+
