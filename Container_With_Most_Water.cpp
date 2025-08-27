@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// brute force approach to find the container
+// brute force approach to find the container with the maximum volume in the container
 void MostWater(vector<int> &bars)
 {
     int width, height;
@@ -24,7 +24,7 @@ void MostWater(vector<int> &bars)
 }
 
 
-// two pointer approach to find the solution
+// two pointer approach to find the maximum volume in the containers 
 void MostWater_Using_Two_Pointer(vector<int> bars)
 {
     int left = 0, right = bars.size() - 1;
@@ -48,3 +48,4 @@ int main()
     MostWater_Using_Two_Pointer(bars);
 
 }
+
