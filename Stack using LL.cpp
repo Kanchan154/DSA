@@ -6,6 +6,7 @@ struct node{
 	struct node *next;
 };
 
+// setting the top 
 struct node *top = NULL;
 
 void push(int x){
@@ -15,6 +16,7 @@ void push(int x){
 	top = new_node;
 }
 
+// pop function
 void pop(){
 	struct node *temp = top;
 	if(top == NULL){
@@ -28,7 +30,7 @@ void pop(){
 	
 }
 
-
+// finding peak function
 void peak(){
 	if(top == NULL){
 		printf("\n Stack is Empty ");
@@ -84,3 +86,4 @@ int main(){
 	
 	
 }
+
