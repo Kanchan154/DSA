@@ -18,7 +18,7 @@ int main(){
         cout << arr[i] << "\t";
     }
 
-    //                  Selection Sort
+    //          ------------ Selection Sort ---------------
     int temp,loc,min;
     for(i = 0;i < size-1;i++){
         min = arr[i];
@@ -41,4 +41,5 @@ int main(){
     for(i=0;i<size;i++){
         cout << arr[i] << "\t";
     }
+
 }
