@@ -54,10 +54,11 @@ class LinkedList{
 	
 	int main(){
 		LinkedList l1;
-		l1.insertAtEnd(45);
-		l1.insertAtEnd(456);
+		l1.insertAtEnd(17);
+		l1.insertAtEnd(52);
 		l1.printLL();
 	}
 	
 	
+
 
