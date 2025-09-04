@@ -23,7 +23,7 @@ void rotated_Sorted_Array(vector<int> array)
         else if (array[start] <= array[mid])
         { // left sorting
             if (array[start] < target && array[mid] > target)
-            { // search in left
+            { // search in left side
                 end = mid - 1;
             }
             else
@@ -56,4 +56,5 @@ int main()
     rotated_Sorted_Array(array);
 
     return 0;
+
 }
