@@ -24,6 +24,7 @@ bool isValid(vector<int> bookArray, int size, int students, int maxAllowedPages)
     }
     return stu > students ? false : true;
 }
+
 void allocateBook(vector<int> bookArray, int students)
 {
     int sum = 0;
@@ -61,4 +62,5 @@ int main()
     allocateBook(bookArray, 2);
 
     return 0;
+
 }
