@@ -30,6 +30,7 @@ bool isPossible(vector<int> boards, int size, int painters, int maxAllocatedTime
     return pntr <= painters;
 }
 
+// function that gives the value of the minimum time
 void Painter_Partition(vector<int> boards, int painters)
 {
     int size = boards.size(), sum = 0;
@@ -62,4 +63,5 @@ int main()
     vector<int> boards = {40, 30, 10, 20};
     Painter_Partition(boards, 2);
     return 0;
+
 }
