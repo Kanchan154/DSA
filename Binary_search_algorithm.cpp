@@ -54,6 +54,7 @@ int binarySearch_usingRecursion(vector<int> array, int target, int start, int en
     }
     return -1;
 }
+
 int main()
 {
     vector<int> array = {-1, 0, 3, 4, 5, 9, 12};
@@ -68,4 +69,5 @@ int main()
     cout << endl
          << "Element found in index : " << index;
     return 0;
+
 }
