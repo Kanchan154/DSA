@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// check that the the config is valid or not
 bool isValid(vector<int> &rows, int cows, int size, int MinAllowed)
 {
     int cow = 1, space = rows[0];
@@ -21,6 +22,8 @@ bool isValid(vector<int> &rows, int cows, int size, int MinAllowed)
     }
     return false;
 }
+
+// get the maximum space between the cows
 void cow_Slots(vector<int> &rows, int cows)
 {
     // sort the array first
@@ -52,4 +55,5 @@ int main()
     vector<int> rows = {1, 2, 8, 4, 9};
     cow_Slots(rows, 3);
     return 0;
+
 }
