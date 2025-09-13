@@ -51,9 +51,11 @@ void myPow(double x, int n)
         x *= x;
         binForm /= 2;
     }
+    
     cout << "the result is : " << ans << endl;
 }
 int main()
 {
     myPow(5,5);
+
 }
