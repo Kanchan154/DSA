@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// return the boolean variable that the mid value is possbile or not
 bool isValid(vector<int> bookArray, int size, int students, int maxAllowedPages)
 {
     int stu = 1, pages = 0;
@@ -25,6 +26,7 @@ bool isValid(vector<int> bookArray, int size, int students, int maxAllowedPages)
     return stu > students ? false : true;
 }
 
+// function that checks and gives the value of maximum book allocated
 void allocateBook(vector<int> bookArray, int students)
 {
     int sum = 0;
@@ -65,4 +67,5 @@ int main()
     return 0;
 
 }
+
 
