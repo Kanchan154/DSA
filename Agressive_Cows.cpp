@@ -8,7 +8,6 @@ using namespace std;
 bool isValid(vector<int> &rows, int cows, int size, int MinAllowed)
 {
     int cow = 1, space = rows[0];
-
     for (int i = 1; i < size; i++)
     {
         if ((rows[i] - space) >= MinAllowed)
@@ -57,3 +56,4 @@ int main()
     return 0;
 
 }
+
