@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// function that checks for the best price of the stock 
 void MaximizeProfit(vector<int> price)
 {
     int maxProfit = 0, bestBuy = price[0];
@@ -21,3 +22,4 @@ int main()
     vector<int> vec = {7, 1, 5, 3, 6, 4};
     MaximizeProfit(vec);
 }
+
