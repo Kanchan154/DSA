@@ -39,7 +39,9 @@ void binary_Search(vector<int> array, int target)
 // binary search using recursion
 int binarySearch_usingRecursion(vector<int> array, int target, int start, int end)
 {
+    // finding mid
     int mid = start + (end - start) / 2;
+    // checking cases
     if (array[mid] > target)
     {
         return binarySearch_usingRecursion(array, target, start, mid - 1);
@@ -71,3 +73,4 @@ int main()
     return 0;
 
 }
+
