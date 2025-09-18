@@ -65,6 +65,7 @@ void array_smallest_largest()
     }
 }
 
+
 void changeArray(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
@@ -257,4 +258,5 @@ int main()
     intersection_of_arrays(arr1,arr2,size);
 
     return 0;
+
 }
