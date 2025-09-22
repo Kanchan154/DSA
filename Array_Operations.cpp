@@ -20,7 +20,7 @@ void array_smallest_largest()
     int small = arr[0];
     int large = arr[0];
 
-    // smallest
+    // smallest element 
     for (int i = 0; i < size; i++)
     {
         if (small < arr[i])
@@ -29,7 +29,7 @@ void array_smallest_largest()
         }
     }
 
-    // large
+    // largest element
     for (int i = 0; i < size; i++)
     {
         if (large > arr[i])
@@ -260,3 +260,4 @@ int main()
     return 0;
 
 }
+
