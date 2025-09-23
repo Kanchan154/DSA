@@ -38,7 +38,6 @@ class LinkedList{
 			}
 		}
 		
-		
 		void printLL(){
 		node *t = head;
 		do{
@@ -58,7 +57,3 @@ class LinkedList{
 		l1.insertAtEnd(52);
 		l1.printLL();
 	}
-	
-	
-
-
