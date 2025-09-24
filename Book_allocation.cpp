@@ -60,12 +60,11 @@ void allocateBook(vector<int> bookArray, int students)
 
 int main()
 {
-
     vector<int> bookArray = {2, 1, 3, 4};
     allocateBook(bookArray, 2);
 
     return 0;
-
 }
+
 
 
