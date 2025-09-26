@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// function to print the array
 void printArray(vector<int> array)
 {
     cout << endl;
@@ -12,6 +13,7 @@ void printArray(vector<int> array)
         cout << i << "\t";
     }
 }
+
 // brute force technique that solve problem with O(nlogn) time complexity and O(1) space complexity
 void sort_By_Brute_Force(vector<int> array)
 {
@@ -87,4 +89,5 @@ int main()
     sort_by_Dutch_national_flag_algorithm(array, array.size());
 
     return 0;
+
 }
