@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// function to sort array in a rotated array
 void rotated_Sorted_Array(vector<int> array)
 {
     int start = 0, end = array.size() - 1;
@@ -58,3 +59,4 @@ int main()
     return 0;
 
 }
+
