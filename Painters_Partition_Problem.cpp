@@ -8,6 +8,7 @@ using namespace std;
  * The task is to find the minimum time to paint all the boards under the constraints that any painter will only paint contineous section of boards.
  */
 
+// function to check whether the middle value is possible or not
 bool isPossible(vector<int> boards, int size, int painters, int maxAllocatedTime)
 {
     int pntr = 1, time = 0;
@@ -65,3 +66,4 @@ int main()
     return 0;
 
 }
+
