@@ -2,6 +2,7 @@
 #include <math.h>
 using namespace std;
 
+// function to get the smallest and the largest element in an array
 void array_smallest_largest()
 {
     int arr[5];
@@ -260,4 +261,5 @@ int main()
     return 0;
 
 }
+
 
