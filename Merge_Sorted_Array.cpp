@@ -2,6 +2,11 @@
 #include <vector>
 using namespace std;
 
+/*
+    * Given 2 arrays are sorted.
+    * merge the arrays so that the merged arrays are also sorted.
+*/    
+
 // function to print the array
 void printArray(vector<int> &array)
 {
@@ -44,4 +49,5 @@ int main()
     merge(nums1, nums1.size(), nums2, nums2.size());
 
     return 0;
+
 }
