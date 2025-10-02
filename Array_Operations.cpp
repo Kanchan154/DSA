@@ -39,6 +39,7 @@ void array_smallest_largest()
         }
     }
 
+    // print the values
     cout << endl
          << endl
          << "Largest number in the array is " << large << endl;
@@ -261,5 +262,6 @@ int main()
     return 0;
 
 }
+
 
 
