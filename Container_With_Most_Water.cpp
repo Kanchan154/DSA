@@ -30,7 +30,6 @@ void MostWater_Using_Two_Pointer(vector<int> bars)
     double max_Vol = 0.0, curr_Vol = 0.0;
     while (left < right)
     {
-        /* code */
         curr_Vol = min(bars[left], bars[right]) * (right - left);
         max_Vol = max(max_Vol, curr_Vol);
         
@@ -47,5 +46,6 @@ int main()
     MostWater_Using_Two_Pointer(bars);
 
 }
+
 
 
