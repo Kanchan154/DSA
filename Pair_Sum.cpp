@@ -57,9 +57,10 @@ void pairSumWithOptimization(vector<int> num, int target)
 
 int main()
 {
-    vector<int> nums = {2, 7, 11, 15};
+    vector<int> nums = {2, 7, 11, 15, 18, 25};
     pairSum(nums, nums.size(), 22);
 
     pairSumWithOptimization(nums, 22);
 }
+
 
