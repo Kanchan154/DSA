@@ -25,9 +25,7 @@ void pop(){
 	else{
 		top = top->next;
 		free(temp);
-	}
-	
-	
+	}	
 }
 
 // finding peak function
@@ -38,6 +36,7 @@ void peak(){
 	printf("Element in peak is : %d",top->data);
 }
 
+// display elements of the stack
 void display(){
 	struct node *temp = top;
 	if(top == NULL){
@@ -51,6 +50,7 @@ void display(){
 	}	
 }
 
+// count the number of elements in a stack
 void countin_Stack(){
 	int count = 0;
 	struct node *temp = top;
@@ -86,4 +86,5 @@ int main(){
 	
 	
 }
+
 
