@@ -36,18 +36,16 @@ void merge(vector<int> &nums1, int m, vector<int> nums2, int n)
     {
         nums1[idx--] = nums2[j--];
     }
-
     printArray(nums1);
 }
 
 int main()
 {
-
     vector<int> nums1 = {10, 14, 21};
     vector<int> nums2 = {5, 8, 13, 19};
 
     merge(nums1, nums1.size(), nums2, nums2.size());
 
     return 0;
-
 }
+
