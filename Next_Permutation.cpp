@@ -25,6 +25,8 @@ so now the next permutation for [1,2,3] is [1,3,2]
  * step - 2: Swap the values of the last element to the pivot element
  * step - 3: Reverse the elements
  */
+
+// print the array
 void printArray(vector<int> array)
 {
     for (int i : array)
@@ -33,6 +35,7 @@ void printArray(vector<int> array)
     }
 }
 
+// function to get the next permutation
 void next_Permtation_Arrangemnet(vector<int> &array)
 {
     // step - 1: find the pivot
@@ -80,4 +83,5 @@ int main()
     printArray(array);
 
     return 0;
+
 }
