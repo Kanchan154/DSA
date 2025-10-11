@@ -67,7 +67,7 @@ void array_smallest_largest()
     }
 }
 
-
+// change array values
 void changeArray(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
@@ -262,6 +262,7 @@ int main()
     return 0;
 
 }
+
 
 
 
