@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// function that implement the binary search operation
 void binary_Search(vector<int> array, int target)
 {
     int start = 0, end = array.size() - 1;
@@ -73,4 +74,5 @@ int main()
     return 0;
 
 }
+
 
