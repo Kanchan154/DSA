@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// function to get maximum subarray with O(n^3) time complexity
 void getAllSubArrays(vector<int> vec, int n)
 {
     for (int st = 0; st < n; st++)
@@ -68,4 +69,5 @@ int main()
     Max_Sum_SubArray_Kadans(vec, vec.size());
 
     return 0;
+
 }
