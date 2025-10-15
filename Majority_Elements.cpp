@@ -31,6 +31,7 @@ void majorityElements(vector<int> arr)
     }
 }
 
+// majority element using sorting
 int majorityElementsUsingSorting(vector<int> arr)
 {
     // sort the array
@@ -66,6 +67,7 @@ int majorityElementsUsingSorting(vector<int> arr)
     }
 }
 
+// optimized function for getting the majority element
 void Moores_Voting_Alogorthm(vector<int> arr)
 {
     int element = -1, freq = 0, n = arr.size();
@@ -93,4 +95,5 @@ int main()
     Moores_Voting_Alogorthm(arr);
 
     return 0;
+
 }
