@@ -2,6 +2,10 @@
 #include <vector>
 using namespace std;
 
+/*
+* the aim is to find the subarray with the maximum sum value and the subarray should be the elements should be in the consecutive manner as same as the main array
+*/
+
 // function to get maximum subarray with O(n^3) time complexity
 void getAllSubArrays(vector<int> vec, int n)
 {
@@ -71,3 +75,4 @@ int main()
     return 0;
 
 }
+
