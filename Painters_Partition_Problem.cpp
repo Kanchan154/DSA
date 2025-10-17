@@ -5,7 +5,7 @@ using namespace std;
 
 /**
  * Given are N boards of length of each given in the form of array, and M painters, such that each painter takes 1 unit of time to paint 1 unit of board
- * The task is to find the minimum time to paint all the boards under the constraints that any painter will only paint contineous section of boards.
+ * The task is to find the minimum time to paint all the boards under the constraints that any painter will only paint contineous section of boards. skipping any board is not allowed.
  */
 
 // function to check whether the middle value is possible or not
@@ -66,4 +66,5 @@ int main()
     return 0;
 
 }
+
 
