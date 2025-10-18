@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// main function to get the Peak Element of the array
 void Peak_Element_Index(vector<int> &array)
 {
     int start = 1, end = array.size() - 2, mid;
@@ -30,4 +31,5 @@ int main()
     vector<int> array = {-5, -1, 1, 2, 4, 6, 7, 10, 8, 6, 5, 0, -2};
     Peak_Element_Index(array);
     return 0;
+
 }
