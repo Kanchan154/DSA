@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/*
+    * The main aim is to give m books to n students so that each student have the maximum number of pages
+*/
+
 // return the boolean variable that the mid value is possbile or not
 bool isValid(vector<int> bookArray, int size, int students, int maxAllowedPages)
 {
@@ -65,6 +69,7 @@ int main()
 
     return 0;
 }
+
 
 
 
