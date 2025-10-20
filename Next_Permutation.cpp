@@ -68,10 +68,10 @@ void next_Permtation_Arrangemnet(vector<int> &array)
 
     // step - 3: Reverse (piv+1 to n-1)
     reverse(array.begin() + pivot + 1, array.end());
+    // print the array
     printArray(array);
     return;
 }
-// print the array
 
 int main()
 {
@@ -83,5 +83,5 @@ int main()
     printArray(array);
 
     return 0;
-
 }
+
