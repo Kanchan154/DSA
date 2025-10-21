@@ -46,6 +46,7 @@ void pairSumWithOptimization(vector<int> num, int target)
             break;
         }
     }
+    
     cout << endl << " -------------------- Pair sum using optimized technique -------------" << endl ;
     if (ans.size() == 0)
     {
@@ -62,5 +63,6 @@ int main()
 
     pairSumWithOptimization(nums, 22);
 }
+
 
 
