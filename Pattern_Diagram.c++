@@ -15,7 +15,6 @@ void basic_number_pattern(int n)
     cout << endl;
 }
 
-
 // 2 - basic alphabet print
 void print_basic_alphabet(int n)
 {
@@ -202,5 +201,6 @@ int main()
     hollow_diamond_patter(6);
     return 0;
 }
+
 
 
