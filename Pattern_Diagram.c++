@@ -191,16 +191,20 @@ void hollow_diamond_patter(int n)
 }
 int main()
 {
+    // basic pattern diagram 
     basic_number_pattern(5);
     print_basic_alphabet(4);
     basic_number_series(5);
+    // Triangle Patterns
     triangle_pattern(6);
     Triangle_Numbers(4);
     inverted_triangle(5);
     pyramid_pattern(5);
+    // Hollow Diamind pattern
     hollow_diamond_patter(6);
     return 0;
 }
+
 
 
 
