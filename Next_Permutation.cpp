@@ -24,7 +24,7 @@ so now the next permutation for [1,2,3] is [1,3,2]
  * step - 1: Find the pivot element using loop, and if the pivot element is -1, (the array is sorted backward already, then arrange the array in ascending order)
  * step - 2: Swap the values of the last element to the pivot element
  * step - 3: Reverse the elements
- */
+ **/
 
 // print the array
 void printArray(vector<int> array)
@@ -84,4 +84,5 @@ int main()
 
     return 0;
 }
+
 
