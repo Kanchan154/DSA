@@ -89,5 +89,4 @@ int main()
     sort_by_Dutch_national_flag_algorithm(array, array.size());
 
     return 0;
-
 }
