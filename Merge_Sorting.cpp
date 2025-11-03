@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// Quick sort 
 void QuickSort(int a[],int low,int high){
     if(low < high){
         int pivot = a[high];
