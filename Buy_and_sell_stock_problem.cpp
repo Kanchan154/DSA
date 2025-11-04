@@ -17,6 +17,7 @@ void MaximizeProfit(vector<int> price)
     cout << "the best time to buy stock is : " << bestBuy << " with maximum profit : " << maxProfit <<  endl;
 }
 
+
 int main()
 { 
     vector<int> vec = {7, 1, 5, 3, 6, 4};
