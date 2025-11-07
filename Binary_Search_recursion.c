@@ -17,6 +17,7 @@ int binarySearch(int arr[], int low, int high, int key) {
 
     return -1;
 }
+
 // main function
 int main() {
     int arr[] = {2, 3, 4, 10, 40};
