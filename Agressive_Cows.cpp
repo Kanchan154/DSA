@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 // check that the the config is valid or not
 bool isValid(vector<int> &rows, int cows, int size, int MinAllowed)
 {
@@ -56,4 +57,5 @@ int main()
     return 0;
 
 }
+
 
