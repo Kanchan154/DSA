@@ -16,7 +16,6 @@ public:
     }
 };
 
-
 // Get height of a node
 int height(Node* node) {
     return node ? node->height : 0;
@@ -131,4 +130,5 @@ int main() {
 
     return 0;
 }
+
 
