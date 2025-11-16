@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 // Node structure
 class Node {
 public:
