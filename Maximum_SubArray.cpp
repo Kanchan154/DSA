@@ -71,8 +71,7 @@ int main()
     getAllSubArrays(vec, vec.size());
     Max_SubArray_Sum_Brute(vec, vec.size());
     Max_Sum_SubArray_Kadans(vec, vec.size());
-
     return 0;
-
 }
+
 
