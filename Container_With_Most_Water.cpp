@@ -40,12 +40,11 @@ void MostWater_Using_Two_Pointer(vector<int> bars)
 
 int main()
 {
-
     vector<int> bars = {1, 8, 6, 2, 5, 4, 8, 3, 7};
     MostWater(bars);
     MostWater_Using_Two_Pointer(bars);
-
 }
+
 
 
 
