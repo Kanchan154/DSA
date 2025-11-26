@@ -260,7 +260,9 @@ int main()
     intersection_of_arrays(arr1,arr2,size);
 
     return 0;
+    
 }
+
 
 
 
