@@ -44,7 +44,3 @@ int main()
     MostWater(bars);
     MostWater_Using_Two_Pointer(bars);
 }
-
-
-
-
