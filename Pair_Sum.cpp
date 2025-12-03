@@ -65,7 +65,3 @@ int main()
     // pair sum with optimized function
     pairSumWithOptimization(nums, 22);
 }
-
-
-
-
