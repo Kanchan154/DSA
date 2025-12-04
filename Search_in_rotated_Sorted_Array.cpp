@@ -57,6 +57,4 @@ int main()
     rotated_Sorted_Array(array);
 
     return 0;
-
 }
-
