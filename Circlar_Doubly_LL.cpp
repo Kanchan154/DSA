@@ -22,6 +22,5 @@ void Doubly_Circular_LL(struct node *head,int val){
 }
 
 int main(){
-	struct node *head = (struct node*)malloc(sizeof(struct node));
-	
+	struct node *head = (struct node*)malloc(sizeof(struct node));	
 }
