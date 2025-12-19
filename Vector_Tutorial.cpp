@@ -88,6 +88,4 @@ int main()
     cout << endl << "The Signle Values number is : " << num << endl;
 
     return 0;
-} 
-
-
+}
