@@ -211,6 +211,5 @@ int main()
     printf("Time taken for Quick Sort: %f seconds\n", cpu_time_used);
 
     // ... similar code for other sorting algorithms ...
-
     return 0;
 }
