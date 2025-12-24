@@ -59,4 +59,3 @@ int main()
 {
     myPow(5,5);
 }
-
