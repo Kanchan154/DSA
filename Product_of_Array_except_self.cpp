@@ -83,6 +83,4 @@ int main()
     product_of_array_using_Optimizaation(array);
     product_of_array_using_space_and_time_Optimizaation(array);
     return 0;
-
 }
-
