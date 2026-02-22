@@ -43,6 +43,8 @@ bool valid_Palindrome()
     }
     return true;
 }
+
+// main function
 int main()
 {
     bool result = valid_Palindrome();
