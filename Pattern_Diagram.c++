@@ -204,7 +204,3 @@ int main()
     hollow_diamond_patter(6);
     return 0;
 }
-
-
-
-
