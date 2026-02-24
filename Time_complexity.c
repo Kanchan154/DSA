@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+// bubble sort
 void bubbleSort(int arr[], int n)
 {
     int i, j, temp;
@@ -15,7 +16,7 @@ void bubbleSort(int arr[], int n)
             }
 }
 
-
+// selection sort
 void selectionSort(int arr[], int n)
 {
     int i, j, min_idx;
@@ -33,6 +34,7 @@ void selectionSort(int arr[], int n)
     }
 }
 
+// insertion sort
 void insertionSort(int arr[], int n)
 {
     int i, key, j;
@@ -213,3 +215,4 @@ int main()
     // ... similar code for other sorting algorithms ...
     return 0;
 }
+
