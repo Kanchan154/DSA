@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// print array function
 void printArray(vector<int> array, int size)
 {
     cout << "The array is \n";
@@ -12,6 +13,7 @@ void printArray(vector<int> array, int size)
     }
     cout << endl;
 }
+
 // bubble sort with time complexity of O(n^2)
 void bubbleSort(vector<int> array, int size)
 {
@@ -69,7 +71,6 @@ void insertionSort(vector<int> &array, int size)
 }
 int main()
 {
-
     vector<int> array = {10, 45, 71, 25, 16, 29, 35};
     bubbleSort(array, array.size());
     selectionSort(array, array.size());
