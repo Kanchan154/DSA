@@ -30,14 +30,10 @@ struct node *create(){
 		new_node->right = create();
 		return new_node;
 	}
-	
 }
-	
 
 int main(){
 	struct node *root;
 	root = create();
     return 0;	
-	
 }
-
