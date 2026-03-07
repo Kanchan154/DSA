@@ -32,6 +32,7 @@ int main(){
     }while(choice != 4);
 }
 
+// enqueue
 void Enqueue(){
     
     if(rear == Max_Size - 1){
@@ -51,6 +52,7 @@ void Enqueue(){
     }
 }
 
+// dequeue 
 void Dequeue(){
     if(front == -1){
         printf("Underflow and exit..............\n");
@@ -71,6 +73,7 @@ void Dequeue(){
 
 }
 
+// diaplay the queue
 void Display(){
     if(front == -1){
         printf("Queue is Empty.......... \n");
