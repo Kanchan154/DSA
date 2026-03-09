@@ -67,8 +67,3 @@ int main()
     allocateBook(bookArray, 2);
     return 0;
 }
-
-
-
-
-
