@@ -50,12 +50,10 @@ void cow_Slots(vector<int> &rows, int cows)
     }
     cout << "The value is: " << answer;
 }
+
 int main()
 {
     vector<int> rows = {1, 2, 8, 4, 9};
     cow_Slots(rows, 3);
     return 0;
-
 }
-
-
