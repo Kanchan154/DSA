@@ -55,6 +55,5 @@ int main()
 {
     vector<int> array = {3, 4, 5, 6, 7, 0, 1, 2};
     rotated_Sorted_Array(array);
-
     return 0;
 }
