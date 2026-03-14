@@ -61,6 +61,7 @@ void allocateBook(vector<int> bookArray, int students)
     cout << "The value is : " << answer << endl;
 }
 
+// main function
 int main()
 {
     vector<int> bookArray = {2, 1, 3, 4};
