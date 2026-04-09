@@ -29,8 +29,7 @@ class LinkedList{
 		if(head == NULL){
 			temp->next = temp;
 			head = temp;
-		}
-		else{
+		} else {
 			while(p->next!=head){
 				p = p -> next;
 				}
@@ -40,7 +39,7 @@ class LinkedList{
 		
 		void printLL(){
 		node *t = head;
-		do{
+		do {
 			cout << t -> value << "  ";
 			t = t -> next;
 		}
@@ -48,12 +47,11 @@ class LinkedList{
 
 		cout << endl << endl;
 		}
-	
 	};
 	
-	int main(){
-		LinkedList l1;
-		l1.insertAtEnd(17);
-		l1.insertAtEnd(52);
-		l1.printLL();
-	}
+int main(){
+	LinkedList l1;
+	l1.insertAtEnd(17);
+	l1.insertAtEnd(52);
+	l1.printLL();
+}
