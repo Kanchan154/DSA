@@ -72,7 +72,4 @@ int main()
     cout << endl
          << "Element found in index : " << index;
     return 0;
-
 }
-
-
