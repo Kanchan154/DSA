@@ -1,12 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
-
+using namespace std;
 class Solution {
 public:
-    std::vector<int> twoSum(std::vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int>& nums, int target) {
         // Map to store: Key = number value, Value = its index
-        std::unordered_map<int, int> num_map;
+        unordered_map<int, int> num_map;
         
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
@@ -28,16 +28,15 @@ public:
 
 int main() {
     Solution solution;
-    std::vector<int> nums = {2, 7, 11, 15};
+    vector<int> nums = {2, 7, 11, 15};
     int target = 9;
     
-    std::vector<int> result = solution.twoSum(nums, target);
+    vector<int> result = solution.twoSum(nums, target);
     
     if (!result.empty()) {
-        std::cout << "Indices: [" << result[0] << ", " << result[1] << "]\n";
+        cout << "Indices: [" << result[0] << ", " << result[1] << "]\n";
     } else {
-        std::cout << "No solution found.\n";
-    }
-    
+        cout << "No solution found.\n";
+    }   
     return 0;
 }
