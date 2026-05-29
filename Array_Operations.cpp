@@ -258,7 +258,5 @@ int main()
     swap_min_max(arr1, size);
     uniqueValues(arr1, size);
     intersection_of_arrays(arr1,arr2,size);
-
     return 0;
-    
 }
