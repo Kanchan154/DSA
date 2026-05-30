@@ -26,9 +26,10 @@ public:
     }
 };
 
+// main function
 int main() {
     Solution solution;
-    vector<int> nums = {2, 7, 11, 15};
+    vector<int> nums = {2, 7, 11, 15, 12, 6, 3, 10};
     int target = 9;
     
     vector<int> result = solution.twoSum(nums, target);
