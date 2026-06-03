@@ -3,7 +3,6 @@ using namespace std;
 
 int main(){
     int size, i, j;
-    
     cout << "Enter the size of the array : ";
     cin >> size;
 
