@@ -9,7 +9,6 @@ void Enqueue();
 void Dequeue();
 void Display();
 
-
 int main(){
     int choice, item;
     printf("\n Press (1) for Enqueue \n Press (2) for Dequeue \n Press (3) for Display \n Press (4) for EXIT \n \n");
