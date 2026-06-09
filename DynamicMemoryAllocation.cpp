@@ -9,10 +9,8 @@ int main(){
 	cout<<"address p is : " <<(p) <<endl;
 	cout<<"Size of p is : " <<sizeof(p) <<endl;
 	
-	
 	void *p1 = new float(50.69);
 	cout<<"value at address p1 is : " <<*(float*)(p1) <<endl;
 	cout<<"address p1 is : " <<(p1) <<endl;
 	cout<<"Size of p1 is : " <<sizeof(p1) <<endl;
-	
 }
