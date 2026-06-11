@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // check if the character is alpha numeric
