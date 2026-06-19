@@ -38,9 +38,8 @@ int main(){
         cout << a[i] << "\t";
     }
 
-    //                  MERGE SORT
+    //--------------------MERGE SORT----------------------
     QuickSort(a,0);
-
     cout << "\n*******************  Sorted aray by MERGE SORT  *******************\n";
     for(i=0;i<n;i++){
         cout << a[i] << "\t";
