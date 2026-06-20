@@ -37,7 +37,7 @@ void MostWater_Using_Two_Pointer(vector<int> bars)
     }
     cout << "Maximum volume that can be stored is : " << max_Vol << endl;
 }
-
+// main function
 int main()
 {
     vector<int> bars = {1, 8, 6, 2, 5, 4, 8, 3, 7};
