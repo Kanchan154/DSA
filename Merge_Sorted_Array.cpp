@@ -43,8 +43,6 @@ int main()
 {
     vector<int> nums1 = {10, 14, 21};
     vector<int> nums2 = {5, 8, 13, 19};
-
     merge(nums1, nums1.size(), nums2, nums2.size());
-
     return 0;
 }
