@@ -49,7 +49,7 @@ void allocateBook(vector<int> bookArray, int students)
     {
         int mid = start + (end - start) / 2;
         if (isValid(bookArray, size, students, mid))
-        { // left
+        { // left part of the array
             answer = mid;
             end = mid - 1;
         }
@@ -66,4 +66,4 @@ int main(){
     vector<int> bookArray = {2, 1, 3, 4};
     allocateBook(bookArray, 2);
     return 0;
-}
+}
